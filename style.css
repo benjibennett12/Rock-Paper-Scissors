@@ -1,0 +1,105 @@
+html {
+    width: 100%;
+    height: 100%
+}
+
+* {
+    box-sizing: borber-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.6;
+    background: #fff;
+    color: #333;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 2rem;
+    text-align: center;
+}
+
+button#restart {
+    margin: 10px;
+    width: 15%;
+}
+
+.header {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.header h1 {
+    margin-bottom: 1rem;
+}
+
+.score {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px solid #333;
+}
+
+.choices {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+
+.choices button {
+    border-radius: 13px;
+}
+
+.text-win {
+    color: var (--win-color)
+}
+
+.text-lose {
+    color: var (--lose-color)
+}
+
+#rock {
+    background-image: url('image/Untitled design (6).png');
+    width: 125px;
+    height: 125px;
+    background-size: 100% 100%;
+}
+
+
+#paper {
+    background-image: url('image/Untitled design (5).png');
+    width: 125px;
+    height: 125px;
+    background-size: 100% 100%;
+}
+
+#scissors {
+    background-image: url('image/Untitled design (7).png');
+    width: 125px;
+    height: 125px;
+    background-size: 100% 100%;
+}
+
+
+#rock span,
+#paper span,
+#scissors span {
+
+    color: #333;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    transform: translateY(-60%);
+}
