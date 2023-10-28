@@ -12,7 +12,7 @@ html {
 body {
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.6;
-    background: url('image/Untitled design (10).png') no-repeat center center fixed;
+    background: url('image/Untitled design (10).png');
     background-size: cover;
     color: #333;
     background-attachment: fixed;
