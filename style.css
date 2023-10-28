@@ -4,7 +4,7 @@ html {
 }
 
 * {
-    box-sizing: borber-box;
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -12,8 +12,10 @@ html {
 body {
     font-family: 'Courier New', Courier, monospace;
     line-height: 1.6;
-    background: #fff;
+    background: url('image/Untitled design (10).png') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
+    background-attachment: fixed;
 }
 
 button {
@@ -70,7 +72,7 @@ button#restart {
 }
 
 #rock {
-    background-image: url('image/Untitled design (6).png');
+    background-image: url('image/rock.png');
     width: 125px;
     height: 125px;
     background-size: 100% 100%;
@@ -78,14 +80,14 @@ button#restart {
 
 
 #paper {
-    background-image: url('image/Untitled design (5).png');
+    background-image: url('image/paper.png');
     width: 125px;
     height: 125px;
     background-size: 100% 100%;
 }
 
 #scissors {
-    background-image: url('image/Untitled design (7).png');
+    background-image: url('image/scissors.png');
     width: 125px;
     height: 125px;
     background-size: 100% 100%;
